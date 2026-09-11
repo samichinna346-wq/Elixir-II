@@ -344,7 +344,7 @@ const Contact: React.FC = () => {
                 <CheckCircle2 size={48} className="text-emerald-400 mx-auto mb-3" />
                 <h5 className="text-xl font-cinzel font-black text-white mb-2">Message Sent!</h5>
                 <p className="text-slate-300 text-xs sm:text-sm leading-relaxed mb-6">
-                  Thank you for contacting ELIXIR'26. Our student coordinators (Barath kumar & Bala Muppidathy) have logged your query and will respond shortly.
+                  Thank you for contacting ELIXIR'26. Our student coordinators (Barath kumar, Chinnasami & Bala Muppidathy) have logged your query and will respond shortly.
                 </p>
                 <button
                   type="button"

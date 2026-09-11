@@ -574,11 +574,11 @@ export const OFFICIAL_COORDINATORS = [
     department: "Department of EEE"
   },
   {
-    role: "Joint Secretary",
-    name: "Abinaya",
-    phone: "",
-    displayPhone: "",
-    waLink: "",
+    role: "Registration Enquiry",
+    name: "Chinnasami",
+    phone: "8220351332",
+    displayPhone: "+91 82203 51332",
+    waLink: "https://wa.me/918220351332?text=Hi%20Chinnasami%2C%20I%20have%20an%20inquiry%20regarding%20ELIXIR%2726%20Registration",
     email: "gceelixir26@gmail.com",
     department: "Department of EEE"
   },

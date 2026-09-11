@@ -328,6 +328,12 @@ const Footer: React.FC<{ onReplayIntro?: () => void }> = ({ onReplayIntro }) => 
               </a>
             </div>
             <div className="bg-slate-900/80 p-2 rounded-lg border border-slate-800">
+              <span className="text-[10px] uppercase font-bold text-amber-300 block">Registration Enquiry</span>
+              <a href="tel:8220351332" className="flex items-center gap-1.5 text-sm text-gold font-mono font-bold hover:underline">
+                <Phone size={13} /> Chinnasami: 8220351332
+              </a>
+            </div>
+            <div className="bg-slate-900/80 p-2 rounded-lg border border-slate-800">
               <span className="text-[10px] uppercase font-bold text-amber-300 block">Co-ordinator</span>
               <a href="tel:8015172974" className="flex items-center gap-1.5 text-sm text-gold font-mono font-bold hover:underline">
                 <Phone size={13} /> Bala Muppidathy: 8015172974
