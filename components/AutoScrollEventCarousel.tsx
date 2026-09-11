@@ -215,8 +215,8 @@ export const AutoScrollEventCarousel: React.FC<AutoScrollEventCarouselProps> = (
                     {ev.day === 1 
                       ? 'Fee: ₹200 • Combo ₹300' 
                       : (ev.category === EventCategory.NON_TECHNICAL 
-                          ? 'Fee: FREE with Tech • ₹300' 
-                          : 'Fee: ₹300 (1 Tech + 1 Free)')}
+                          ? 'Fee: FREE with Tech • ₹250' 
+                          : 'Fee: ₹250 (1 Tech + 1 Free)')}
                   </span>
                   <Link
                     to={`/events`}

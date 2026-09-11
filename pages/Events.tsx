@@ -102,7 +102,7 @@ const EventDetailModal: React.FC<{ event: Event; onClose: () => void }> = ({ eve
               </div>
               <div className="text-left sm:text-right">
                 <span className="text-xl sm:text-2xl font-cinzel font-black text-yellow-300 block drop-shadow-[0_0_10px_rgba(253,224,71,0.4)]">
-                  {isDay1 ? '₹200 • Combo ₹300' : '₹300'}
+                  {isDay1 ? '₹200 • Combo ₹300' : '₹250'}
                 </span>
                 <span className="text-[10px] text-gray-400 font-mono">per person / delegate</span>
               </div>
@@ -111,7 +111,7 @@ const EventDetailModal: React.FC<{ event: Event; onClose: () => void }> = ({ eve
             <p className="text-xs text-amber-200/90 leading-relaxed font-medium mb-3">
               {event.feeNote || (isDay1 
                 ? 'Register for 1 Event at ₹200/person OR participate in Both Events (Workshop + Project Display) for ₹300/person (Save ₹100 combo)!' 
-                : '₹300/person includes 1 Technical Event + 1 Non-Technical Event completely FREE!')}
+                : '₹250/person includes 1 Technical Event + 1 Non-Technical Event completely FREE!')}
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-[11px] text-slate-300 pt-2.5 border-t border-white/10 font-mono">
@@ -333,7 +333,7 @@ const Events: React.FC = () => {
             >
               <div>
                 <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-amber-300 block">Day 2 Pass • Popular</span>
-                <span className="text-white font-cinzel font-black text-sm group-hover:text-amber-300 transition-colors">AURA PASS (₹300)</span>
+                <span className="text-white font-cinzel font-black text-sm group-hover:text-amber-300 transition-colors">AURA PASS (₹250)</span>
                 <span className="text-[10px] text-gray-400 block">1 Tech + 1 Non-Tech FREE</span>
               </div>
               <ArrowRight size={14} className="text-amber-400 group-hover:translate-x-1 transition-transform shrink-0" />

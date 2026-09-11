@@ -107,7 +107,7 @@ const Register: React.FC<RegisterProps> = ({ onSubmit }) => {
 
   // Base price per person based on Pass Type and Offer Logic
   // NOVA: 1 event = ₹200, 2 events = ₹300
-  // AURA: ₹300 (1 tech + 1 non-tech free)
+  // AURA: ₹250 (1 tech + 1 non-tech free)
   // ELITE: ₹450 (Day 1 Workshop & Project + Day 2 1 tech & 1 non-tech)
   const basePricePerHead = useMemo(() => {
     if (!selectedPass) return 0;
@@ -119,8 +119,8 @@ const Register: React.FC<RegisterProps> = ({ onSubmit }) => {
     }
 
     if (selectedPass === 'AURA') {
-      if (formData.selectedEvents.length > 0) return 300;
-      return 300;
+      if (formData.selectedEvents.length > 0) return 250;
+      return 250;
     }
 
     if (selectedPass === 'ELITE') {
@@ -780,7 +780,7 @@ const Register: React.FC<RegisterProps> = ({ onSubmit }) => {
                   <div className="flex items-center gap-2">
                     <Sparkles className="text-amber-400 shrink-0" size={16} />
                     <span>
-                      <strong>AURA Pass Special Offer:</strong> ₹300/person includes <strong>1 Technical Event</strong> + <strong>1 Non-Technical Event completely FREE!</strong>
+                      <strong>AURA Pass Special Offer:</strong> ₹250/person includes <strong>1 Technical Event</strong> + <strong>1 Non-Technical Event completely FREE!</strong>
                     </span>
                   </div>
                 </div>
